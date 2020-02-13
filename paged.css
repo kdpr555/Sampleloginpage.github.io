@@ -1,0 +1,56 @@
+#body{
+    background:url(page1.jpg) no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+#division{
+    min-width:350px;
+    height:370px;
+    display:inline-block;
+    background-color:rgba(0,0,10,0.5);
+    margin-top: 10vw;
+    }
+#body #division img{
+    width: 50px;
+    height:50px;
+    margin-top: -25px;
+    border-radius: 70%;
+    border:1px solid white;
+}
+#division h1{
+    display:inline;
+    color:white;
+    font-family:fantasy;
+    font-size: 25px;
+}
+form label{
+    color: white;
+    font-weight: bold;
+    margin:0;
+}
+form input{
+    width:90%;
+}
+form input[type="text"],input[type="password"]{
+   border:none;
+   border-bottom:1px solid white;
+    background: transparent;
+    outline:none;
+    height:35px;
+    color:white;
+}
+form input[type="submit"]{
+    color:white;
+    border:1px solid white;
+    height:25px;
+    border-radius: 20px;
+    background: transparent;
+}
+#s:hover{
+    color:blue;
+}
+form a{
+    color:white;
+}
