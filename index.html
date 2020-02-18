@@ -7,6 +7,10 @@ function test(){
     if(document.getElementById("password").value.length<6){
     alert("The entered password is too short");
     }
+    var tusername=document.getElementById("username").value;
+    if(/[~!@#$%^&*()_+?]/g.test(tusername)){
+        alert("username must be free from special characters");
+    }
 }
 </script> 
 </head>
